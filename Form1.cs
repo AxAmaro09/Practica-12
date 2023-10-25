@@ -6,5 +6,22 @@ namespace Practic12
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double cal;
+            cal = double.Parse(textBox1.Text);
+            if (cal < 3) MessageBox.Show("reprobado");
+            else
+            {
+                MessageBox.Show("Aprobado");
+            }
+
+        }
     }
 }
