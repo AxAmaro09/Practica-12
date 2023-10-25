@@ -17,9 +17,7 @@ namespace Practic12
             double cal;
             cal = double.Parse(textBox1.Text);
             if (cal < 3) MessageBox.Show("reprobado");
-            else
-            {
-                MessageBox.Show("Aprobado");
+           
             }
 
         }
